@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Login Form in HTML5 and CSS3</title>
+<link rel="stylesheet" a href="login.css">
+	<link rel="stylesheet" a href="css\font-awesome.min.css">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bgbody" style="background-repeat: no-repeat; background-size: cover; margin-top: 28px; padding-top: 70px;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">IST Web Portal&nbsp;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse navbg" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="#https://www.ist.edu.pk/">Home Page <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#http://my.ist.edu.pk/welcome.asp">Faculty Web Pages</a> </li>
+      <li class="nav-item"> <a class="nav-link disabled" href="#">Results</a> </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+</form>
+  </div>
+</nav>
+<div class="container bgcontainer">
+	
+  <img src="IST Logo.png" alt class="logo"/>
+	<form action="login.php" method="post">
+			<div class="form-input ">
+			  <input name="reg" type="text" class="reg" id="reg" placeholder="Registration Number" />
+      </div>
+			<div class="form-input">
+				<input type="Password" name="Password" id="Password" placeholder="Password" />
+			</div>
+			<div class="form-input">
+				<label class="usertype">User Type:&nbsp; </label>
+				<select name="entry" id="entry"class="selecttype"> 
+				  <option value="">Select</option>
+					<option value="Student"> Student</option>
+					<option value="Admin"> Admin</option>
+				</select>
+			</div>
+	  <input type="submit" value="LOGIN" class="btn-login"/>
+  </form>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+body{
+    margin: 0 auto;
+    background-image: url("../image/technology.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+
+.container{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    margin-top: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255,255,255,0.70);
+    margin-top: 160px;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    margin-top: -60px;
+}
+.container .logo {
+    min-height: 0px;
+    margin-left: -18px;
+    padding-top: 0px;
+}
+
+
+input[type="text"],input[type="password"]{
+    margin-top: 30px;
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: -8px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.form-input::before{
+    /*content: "\f007"*/;
+    font-family: "FontAwesome";
+    padding-left: 07px;
+    padding-top: 40px;
+    position: absolute;
+    font-size: 35px;
+    color: #2980b9;
+    margin-top: -13px;
+}
+
+.form-input:nth-child(2)::before{
+    /*content: "\f023"*/;
+    height: 0px;
+    margin-top: -16px;
+}
+
+.btn-login{
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    border: none;
+    background-color: #27ae60;
+    color: #fff;
+    left: 165pc;
+    padding-top: 14px;
+    margin-top: 14px;
+    margin-left: -19px;
+}
+
+.usertype {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: left;
+    color: #000000;
+    margin-top: 48px;
+}
+.selecttype {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    margin-right: 0px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+.logo {
+    padding-bottom: 0px;
+    text-shadow: 0px 0px 0px;
+    max-height: 22%;
+    margin-left: -5px;
+    padding-left: 0px;
+    padding-right: 5px;
+    border-spacing: 0px 0px;
+}
+.reg {
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+
+
+
+
+
+
+
+
+}
+.background {
+    margin-top: 0px;
+}
+.bgimg {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background-position: -3% 0%;
+}
+.navbg {
+    color: #0071A0;
+    background-color: #A1DEFB;
+    background-image: -webkit-linear-gradient(4deg,rgba(22,133,205,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(144,187,255,1.00) 30.57%,rgba(109,149,241,1.00) 100%,rgba(255,40,40,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(4deg,rgba(22,133,205,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(144,187,255,1.00) 30.57%,rgba(109,149,241,1.00) 100%,rgba(255,40,40,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(4deg,rgba(22,133,205,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(144,187,255,1.00) 30.57%,rgba(109,149,241,1.00) 100%,rgba(255,40,40,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(86deg,rgba(22,133,205,1.00) 0%,rgba(255,255,255,1.00) 0%,rgba(144,187,255,1.00) 30.57%,rgba(109,149,241,1.00) 100%,rgba(255,40,40,1.00) 100%,rgba(255,0,0,1.00) 100%);
+}
+.bodybg {
+
+}
+.containerbg {
+    background-color: #FFFFFF;
+}
+.bgcontainer {
+    height: 99%;
+    margin-top: 41px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+    margin-bottom: 42px;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.bgbody {
+    margin-top: 28px;
+    margin-bottom: 72px;
+    background-image: url(istbg.jpg);
+    background-attachment: scroll;
+
+}
+.logoutbtn {
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 460px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px #FF0004;
+    box-shadow: 0px 0px #FF0004;
+    color: #FF0002;
+    margin-right: 8px;
+    padding-left: 40px;
+    border-width: medium;
+
+}
