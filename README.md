@@ -1,42 +1,28 @@
 # University-Portal-DBMS-Project
-I created a fully functional university portal for my Database Management project in 4th semester where I used various frontend and backend server technologies including PHP and fundamental database techniques using PhpMyAdmin. The website incorporates all CRUD database operations.
-
-Database Management System 
+I created a fully functional university portal for my Database Management project in 4th semester where I used various frontend and backend server technologies including PHP and fundamental database techniques using PhpMyAdmin. The website incorporates all CRUD database operations which are explained in detail as follows.
 
 
 
-
-SEMESTER PROJECT REPORT
-
-“University Portal”
+# Topic: “University Portal” (30-06-22)
 
 
 
 
-
-
-
-
-
-
-
-
-
-INTRODUCTION
+## INTRODUCTION
 
 For this semester’s project of Database System, I have created a web application that is based upon existing DBMS for students of our university. This is a full stack web application which involves use of various frameworks and programming languages for frontend as well as backend. The user will either be a student or an administrator. The student user will have the access to view their information such as their results, attendance, personal information etc. On the other hand, the admin user will have the ability to perform CRUD operations like adding a new student, updating or deleting existing student’s information etc.  
 
-MOTIVATION
+## MOTIVATION
 
 “*As there already exists a student’s portal of our university, why is there a need to make another one?* ”, is a common question that I have been asked many times by my colleagues when working for this project. I used to say that I wanted to upgrade the look of the existing portal and if this project succeeds, I will show this to our faculty and higher authorities, so they give us a chance to upgrade the entire DBMS up to the modern standards with newer frameworks. Hence, I decided to work on this project and understand how things in the backend look like. 
 
 On the mid of May this year however, the IT department upgraded the old student portal with a much better one and of exactly how I dreamt about my portal to look like, by that time this project was halfway complete, so I decided to keep on working as I still got so much to learn from this project.
 
-PRACTICALITY
+## PRACTICALITY
 
 This portal is themed about Institute of Space Technology, where I study, but the practicality of this portal can be applied anywhere. All educational institutions, businesses, companies can find this project useful as the backend working involved the use of databases and nothing in today’s modern era works without proper database modelling. Therefore, this application is quite useful for many purposes.
 
-DEMONSTRATION:
+## DEMONSTRATION:
 
 Here are some screenshots that I’ve attached which demonstrate the working of this project.
 
@@ -133,11 +119,11 @@ Hence the as we can see from the list above, the student Mike having registratio
 After the admin or student has ended their task, they can end the session by clicking logout button. It will lead them back to the main login form.
 
 
-WORKING
+## WORKING
 
 Now we will discuss about how this project was made and what tools and frameworks were used.
 
-# TOOLS
+##  TOOLS
 - HTML
 - CSS
 - Bootstrap 
@@ -146,7 +132,7 @@ Now we will discuss about how this project was made and what tools and framework
 - phpMyAdmin
 - Adobe Dreamweaver
 
-# FRONT-END
+## FRONT-END
 For the front-end, I used HTML, CSS, Bootstrap to design the layout and theme of website.
 
 The theme was based upon IST’s color scheme mainly light-blue and white therefore I tried to keep it simple. Adobe Dreamweaver was used to help with CSS and for its live design feature.
@@ -156,12 +142,12 @@ The image below shows all the files and folders created in order to make this pr
 
 
 
-# BACK-END
+## BACK-END
 For the back-end, a database was created using MySQL with the use of XAMPP along with phpMyAdmin software. PHP was used as a native language to connect front-end with database. As the database was set up on my computer’s IP address so it will only connect in this device unless some configurations are made in PHP files.
 
 Further details of the database design and links will be explained as follows.
 
-DATABASE
+## DATABASE
 
 For the database, I used my understanding of what I studied in this course as well as things like normalization were applied where found necessary. A total of 9 tables were made.
 
@@ -171,7 +157,7 @@ The schema diagram above shows all the tables and their relationships. Here Regi
 
 Various queries have been applied to these tables.
 
-CONCLUSION 
+## CONCLUSION 
 
 Working on this project enhanced my knowledge of database management as well as it helped me gain experience as a web developer. I learned so many things and now have the basic knowledge of how DBMS of organizations work. I hope to continue working on similar projects to meet various demands and gain fluency with required tools and frameworks.
 
